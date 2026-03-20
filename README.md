@@ -9,8 +9,7 @@
 ## Profile
 
 - Student at **National Kaohsiung University of Science and Technology (NKUST)**
-- Focus: **Web Dev, System Programming, AI Tools, Medicial Engineering, Electronic Engineering**
-- Constant practice to sharpen engineering mindset  
+- Focus: **Machine Learning,Deep Learning,Computer Vision,IoT,Embedded System,, AI Tools,Electronic Engineering**
 - Building toward full-stack + system-level mastery  
 
 ---
