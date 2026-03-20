@@ -9,7 +9,7 @@
 ## Profile
 
 - Student at **National Kaohsiung University of Science and Technology (NKUST)**
-- Focus: **Machine Learning,Deep Learning,Computer Vision,IoT,Embedded System,, AI Tools,Electronic Engineering**
+- Focus: **ML/DL, Computer Vision, IoT, Embedded System, AI Tools, Electronic Engineering**
 - Building toward full-stack + system-level mastery  
 
 ---
