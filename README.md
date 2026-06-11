@@ -32,7 +32,7 @@
 ![pkg](https://skillicons.dev/icons?i=npm,yarn,pnpm,bun&theme=dark)
 
 **Operating Systems**  
-![os](https://skillicons.dev/icons?i=apple,linux,windows,ubuntu,arch&theme=dark)
+![os](https://skillicons.dev/icons?i=apple,linux,windows,ubuntu,arch,ros&theme=dark)
 
 **ML & Computer Vision**  
 ![os](https://skillicons.dev/icons?i=tensorflow,pytorch,opencv&theme=dark)
