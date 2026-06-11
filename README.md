@@ -39,6 +39,18 @@
 
 ---
 
+
+## GitHub Stats
+
+<div align="center">
+
+| <img align="center" src="https://github-readme-stats.vercel.app/api?username=kylin419&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="GitHub Stats" width="400"/> | <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kylin419&layout=compact&theme=dark&hide_border=true" alt="Top Languages" width="350"/> |
+|---|---|
+
+</div>
+
+---
+
 ## Contribution Graph  
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=kylin419&theme=react-dark&hide_border=true&area=true"/>
 
