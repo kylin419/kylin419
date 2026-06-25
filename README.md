@@ -38,7 +38,48 @@
 ![os](https://skillicons.dev/icons?i=tensorflow,pytorch,opencv&theme=dark)
 
 ---
+## GitHub Streak
 
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=kylin419&theme=dark&hide_border=true"/>
+</p>
+
+## Profile Summary
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kylin419&theme=github_dark"/>
+</p>
+
+## Languages Distribution
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kylin419&theme=github_dark"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kylin419&theme=github_dark"/>
+</p>
+
+## Coding Time
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kylin419&theme=github_dark&utcOffset=8"/>
+</p>
+
+## GitHub Trophy
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=kylin419&theme=darkhub&no-frame=true&row=1&column=6"/>
+</p>
+
+## Contribution Calendar
+
+<p align="center">
+  <img src="https://ghchart.rshah.org/kylin419" />
+</p>
+
+## Profile Views
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=kylin419&style=for-the-badge&color=blue"/>
+</p>
 
 ## GitHub Stats
 
