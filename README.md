@@ -6,7 +6,9 @@
 <div align="center">
 
 # Kylin
+<img src="https://komarev.com/ghpvc/?username=kylin419&style=for-the-badge&color=blue"/>
 
+<img src="https://img.shields.io/github/followers/kylin419?style=for-the-badge&logo=github"/>
 ### AI • Computer Vision • Embedded Systems • Full Stack
 
 Student at **National Kaohsiung University of Science and Technology (NKUST)**
@@ -95,14 +97,6 @@ Building toward **Full-Stack + System-Level Mastery**
 
 ---
 
-## GitHub Trophy
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=kylin419&theme=darkhub&no-frame=true&row=1&column=6"/>
-</p>
-
----
-
 ## Contribution Activity
 
 <p align="center">
@@ -119,13 +113,6 @@ Building toward **Full-Stack + System-Level Mastery**
 
 ---
 
-## Profile Views
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=kylin419&style=for-the-badge&color=blue"/>
-</p>
-
----
 
 ## Social
 
