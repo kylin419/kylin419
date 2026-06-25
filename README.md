@@ -6,9 +6,10 @@
 <div align="center">
 
 # Kylin
-<img src="https://komarev.com/ghpvc/?username=kylin419&style=for-the-badge&color=blue"/>
 
 <img src="https://img.shields.io/github/followers/kylin419?style=for-the-badge&logo=github"/>
+<img src="https://komarev.com/ghpvc/?username=kylin419&style=for-the-badge&color=blue"/>
+
 ### AI • Computer Vision • Embedded Systems • Full Stack
 
 Student at **National Kaohsiung University of Science and Technology (NKUST)**
