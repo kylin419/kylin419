@@ -1,124 +1,205 @@
-<!-- Right-side big character -->
-<p align="center">
-  <img align="right" src="luffy5.png" width="500"/>
-</p>
-
-  # Kylin
 <div align="center">
 
-  
-<img src="https://img.shields.io/github/followers/kylin419?style=for-the-badge&logo=github"/>
-<img src="https://komarev.com/ghpvc/?username=kylin419&style=for-the-badge&color=blue"/>
+```text
+██╗  ██╗██╗   ██╗██╗     ██╗███╗   ██╗
+██║ ██╔╝╚██╗ ██╔╝██║     ██║████╗  ██║
+█████╔╝  ╚████╔╝ ██║     ██║██╔██╗ ██║
+██╔═██╗   ╚██╔╝  ██║     ██║██║╚██╗██║
+██║  ██╗   ██║   ███████╗██║██║ ╚████║
+╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═╝╚═╝  ╚═══╝
+```
 
-### AI • Computer Vision • Embedded Systems
+</div>
 
-Student at **National Kaohsiung University of Science and Technology (NKUST)**
+<div align="center">
 
-Building toward **Full-Stack + System-Level Mastery**
+```text
+kylin419@github
+──────────────────────────────────────────────────────────────────────────────
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#====         :=**+%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@                           OS:             MacOS
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+:         .       :+**+========*%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@#+                      :+**+=========++++%@@@@@@@@@@@@@@@@@@@@@@@@@@@                           Host:           NKUST EECS
+@@@@@@@@@@@@@@@@@@@@@@@%        .                 :+**+++++*******++++++@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@          .                  :+**+***++=========------@@@@@@@@@@@@@@@@@@@@@                           Kernel:         AI • Computer Vision
+@@@@@@@@@@@@@@@@@@.              .                =+======-------------+****+-@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@:                     .             =+====+****-::::::::::::==-+@@@@@@@@@@@@@@@@                           Uptime:         Student
+@@@@@@@@@@@@@@=  .      .                     ...-========-:::::=+++++++==+=-:::-*@@@@@@@@@@@@@@
+@@@@@@@@@@@@+                 .          .==++++++++++++++:-++++++++++++::+--     .+@@@@@@@@@@@@                           Shell:          Go
+@@@@@@@@@@@+    .        .               :=++++++++++++++=.-++++++++++++::+:        =@@@@@@@@@@@                                           Rust
+@@@@@@@@@#.          .    --------=++++++++++++++++*+++++=.-++++++++++++::+.       .  *@@@@@@@@@
+@@@@@@@%- .------=++++++++++=:::-=:::=-..:=++++++++%%%%%%%*#%%%%*+++++++..+.       .   .#@@@@@@@                           Editor:         VSCode
+@@@@@@@- :+++++++==++++++.--=.:.:=:::-:.:-=+++++#@##=-=++++++==+#%%%*+++..+...          :%@@@@@@                                           JetBrains
+@@@@@@* .-++++++-=:=+-.=.-..=..::=:.-=+-:-=+++##===+********#*+++==*@%++..+.....         :%@@@@@
+@@@@@*= :=*++++++++-=-+++=+++++++++++++++===*%===*****####%%%%%#**++=##+..+.               #@@@@                           Languages:      C
+@@@@@*+.:=****+++=====+++++----------------=%==*****%%%%%%%%%%%%%#**+-%#..+. .             +@@@@                                           C++
+@@@@*+..:=+=-----:....................::..-@+-*****%%%%%%%%%%%%%%%%#*==@..+.  .     .   .  :%@@@                                           Java
+@@@**+.:-=+-......=-..+*+::***+::....=**@@@+=*****%%%%%%%%%%%%%%%%%%**==@:+.            .. ::@@@                                           PHP
+@@***+.:-=+-..=*****************=:+@@@*===--==*%%%%%%%%%%%%%%%%%%%%%%*==@:+. ...            ::@@                                           Verilog
+@@+##*::-=+-..=**-+*********+:+#@%@@@#+***********%%%@@@@%%%%%%%%%%%%*==@.= .           .     @@                                           Python
+@++**+:--=+-..::::+***++++**+..:+@@@@@@@#****#%#%%%%%%%%%%%@@%%%%%%%**==@.=          .         @                                           JavaScript
+@++**+:--++-....=++++****+++++=..:*@@@@@*%@%%%%%%%@@@@@%#%@@@@@@@@+=#===@.=   .                @                                           Go
+*++**+:--+*-:...=**+++++++++**+:::::::::+##@@%%%@@%%%######%@@@@#+==+%%@-.=               .                                                Rust
++++**+---+*-::::----:::::::----::::::::::::@%##########*++*#%@#++**=*@%@:.=                    .
++++***---+*-::::::::::::::::::::::::::-=+-=+@%**#####*+==-=+#%*==**=%@@*..=                                                Frameworks:     OpenCV
+++*##*--=**-::::=*+-*##-#*:-+#*:::::::+#=:=-@*-+++++===--===++====+=%@@-..+           .                                                    PyTorch
+++***+--=#*-::=+++*###+++####+++=::-**-=*++*@=-==*=-----=======-+#=.=@+:..=                                                                TensorFlow
+++****--=#*-:::=+++++####++++++=::::--=++-:--#%**+=---========--++=:..@-.:+                     
+++***#--=#*-::::+****####*****+::::=*#*=+*+*-:%*+============--++==-:..@.++-                                               Backend:        Node.js
+*+***#--=#*-:=******######******+::=##+-+##*---@*++=========+*#+=====:..#%:::.   .     .       .                                           Express
+@*####--=#*-::=*##**-*###-***###+::=+-+##=*=-:::@*+======+*###*=======--..=  :@#.     .        @                                           PostgreSQL
+@*****--=#*-:::----::----::::----::--+##=:-**--@@@===*%%%###*+==========--*%##*%@*             @
+@@****--=*=-:::::::::::::::::::::::=#####*@@@.         :#*++***=========#@@@%%%+.   =@-       %@                           Embedded:       Arduino
+@@***#--=*=-:::::::::*##::::::::::::=**%=.               +******++====#@@@@@@%:...     .+%.   @@                                            ESP32
+@@@**#--=*=-::+#########*******+::::+%=      ...      .  :==*#####+=*@@@@@@#+-:........   #%.%@@                                            DE2-115
+@@@@+=--=*=-::+##=---*##-----##+::::*+           ......:::-------==#@@@@@#++++=----:::::.. .%@@@                                            STM32
+@@@@%=--=*=-::+##*+++###++++*##+:::*=  ..             ....:======#@@@@@#+++++++=====+++=-:.+@@@@                           
+@@@@@#--=*=-::=++++++*##+++++##+::=+. ....       .     ....:--=*@@@@@%+==++++===+=++++==-:=@@@@@                           Cloud:          AWS              
+@@@@@@*-=*=-:::::--::*##:::------=+:   ..            ......:-+%@@@@%*=---===+=======+===-+@@@@@@                                           Azure
+@@@@@@@+=*=-::::::---+++::::-:-:-++    ..           ......:=*@@@@@*+--------=++++++++===+@@@@@@@                                           Google Cloud
+@@@@@@@@*##*+++++=====----------+*     ..         -:....:-+%@@@@@*=-------------====+==+@@@@@@@@
+@@@@@@@@@%+++++*################%* .   .        .-....:--*@@@@@#=------------------==+#@@@@@@@@@                           WM:             Git
+@@@@@@@@@@@######%%%%*+++++++**##....  .   ..  :-...:--=#@@@@@*----------====-------=%@@@@@@@@@@
+@@@@@@@@@@@@@####%%%%%%%++%+*%%%* ...  .....  --...--=*@@@@@%=::---------###**=*===*@@@@@@@@@@@@                           Terminal:       GitHub
+@@@@@@@@@@@@@@%##*+++%%%%%%%%%%* ..........  :--.---=#@@@@@#-..:-------------=*#**@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@%*+++++++++++*# ....::..::  :------+@@@@@@+:..:-------------:::=@@@@@@@@@@@@@@@@                           Projects:       CVForge
+@@@@@@@@@@@@@@@@@@@*+++++++++*# ....:-:.::. :-----+@@@@@*-..:---::-----------%@@@@@@@@@@@@@@@@@@                                           Lingo
+@@@@@@@@@@@@@@@@@@@@@*++++++*% ......:-::  :-----@@@@@@+:.:----:.:---------%@@@@@@@@@@@@@@@@@@@@                                           AOI PCB Detection
+@@@@@@@@@@@@@@@@@@@@@@@@@+++#:.......:-:. :----=@@@@@@=-.----:..:------%%@@@@@@@@@@@@@@@@@*%@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@%% ...::..:--: :---=@@@@@#=------:..:----#@@@@@@@@@@@@@@@@@@@@#=+@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@**+:..---  ---=@@@@@*-----:...:=##@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%***. --+@@@@%+--:::+++#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+```
 
 </div>
 
 ---
 
-## Profile
-
-- Student at **National Kaohsiung University of Science and Technology (NKUST)**
-- Focus: **ML/DL, Computer Vision, IoT, Embedded System, AI Tools, Electronic Engineering**
-- Building toward full-stack + system-level mastery
-
----
-
-## ⚡ Tech Stack
+# ~/tech-stack
 
 ### Languages
-![langs](https://skillicons.dev/icons?i=c,cpp,java,php,v,python,js,go,rust&theme=dark)
 
-### Web Dev
-![web](https://skillicons.dev/icons?i=html,css,react,nextjs,nodejs,express,postgres&theme=dark)
+<p align="center">
+<img src="https://skillicons.dev/icons?i=c,cpp,java,php,v,python,js,go,rust&theme=dark"/>
+</p>
+
+### Web Development
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=html,css,react,nextjs,nodejs,express,postgres&theme=dark"/>
+</p>
 
 ### Platforms & Tools
-![tools](https://skillicons.dev/icons?i=git,github,aws,azure,vscode,postman,stackoverflow&theme=dark)
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=git,github,aws,azure,vscode,postman,stackoverflow&theme=dark"/>
+</p>
 
 ### Boards
-![boards](https://skillicons.dev/icons?i=arduino,esp32&theme=dark)
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=arduino,esp32&theme=dark"/>
+</p>
 
 ### Package Managers
-![pkg](https://skillicons.dev/icons?i=npm,yarn,pnpm,bun&theme=dark)
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=npm,yarn,pnpm,bun&theme=dark"/>
+</p>
 
 ### Operating Systems
-![os](https://skillicons.dev/icons?i=apple,linux,windows,ubuntu,arch,ros&theme=dark)
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=apple,linux,windows,ubuntu,arch,ros&theme=dark"/>
+</p>
 
 ### ML & Computer Vision
-![cv](https://skillicons.dev/icons?i=tensorflow,pytorch,opencv&theme=dark)
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv&theme=dark"/>
+</p>
 
 ---
 
-## GitHub Statistics
+# ~/github-stats
 
 <div align="center">
 
-| GitHub Stats | Most Used Languages |
-|:---:|:---:|
-| <img src="https://github-readme-stats.vercel.app/api?username=kylin419&show_icons=true&theme=dark&hide_border=true&count_private=true" width="420"/> | <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kylin419&layout=compact&theme=dark&hide_border=true" width="350"/> |
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=kylin419&show_icons=true&theme=github_dark&hide_border=true"/>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kylin419&layout=compact&theme=github_dark&hide_border=true"/>
 
 </div>
 
 ---
 
-## GitHub Streak
+# ~/streak
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=kylin419&theme=dark&hide_border=true"/>
-</p>
+<div align="center">
 
----
+<img src="https://streak-stats.demolab.com?user=kylin419&theme=github-dark-blue&hide_border=true"/>
 
-## Profile Summary
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kylin419&theme=github_dark"/>
-</p>
+</div>
 
 ---
 
-## Languages Distribution
+# ~/summary
 
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kylin419&theme=github_dark"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kylin419&theme=github_dark"/>
-</p>
+<div align="center">
 
----
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kylin419&theme=github_dark"/>
 
-## Coding Time
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kylin419&theme=github_dark&utcOffset=8"/>
-</p>
+</div>
 
 ---
 
-## Contribution Activity
+# ~/languages
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kylin419&theme=react-dark&hide_border=true&area=true"/>
-</p>
+<div align="center">
 
----
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kylin419&theme=github_dark"/>
 
-## Contribution Calendar
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kylin419&theme=github_dark"/>
 
-<p align="center">
-  <img src="https://ghchart.rshah.org/kylin419"/>
-</p>
+</div>
 
 ---
 
+# ~/coding-time
 
-## Social
+<div align="center">
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=instagram,discord,twitter,linkedin&theme=dark"/>
-</p>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kylin419&theme=github_dark&utcOffset=8"/>
+
+</div>
 
 ---
+
+# ~/activity
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=kylin419&theme=github-compact&hide_border=true"/>
+
+</div>
+
+---
+
+# ~/calendar
+
+<div align="center">
+
+<img src="https://ghchart.rshah.org/kylin419"/>
+
+</div>
+
+---
+
+# ~/social
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=instagram,discord,twitter,linkedin&theme=dark"/>
+
+</div>
