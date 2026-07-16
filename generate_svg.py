@@ -135,7 +135,7 @@ def generate_svg():
         t = row[0]
         if t == 'empty':
             svg_lines.append(f'  <tspan x="{STATS_START_X}" y="{current_y}"> </tspan>')
-            current_y += 20
+            current_y += 28
             continue
             
         if t == 'header':
@@ -143,7 +143,7 @@ def generate_svg():
             dash_len = 40 # characters of dashes (adjusted for new canvas aspect ratio)
             dashes = "-" * dash_len
             svg_lines.append(f'  <tspan x="{STATS_START_X}" y="{current_y}">{label}</tspan> <tspan class="cc">{dashes}</tspan>')
-            current_y += 20
+            current_y += 28
             continue
             
         if t == 'contact-header' or t == 'stats-header':
@@ -151,7 +151,7 @@ def generate_svg():
             dash_len = 47
             dashes = "-" * dash_len
             svg_lines.append(f'  <tspan x="{STATS_START_X}" y="{current_y}">{label}</tspan> <tspan class="cc">{dashes}</tspan>')
-            current_y += 20
+            current_y += 28
             continue
             
         if t == 'item':
@@ -172,7 +172,7 @@ def generate_svg():
             dots = "." * dot_count
             
             svg_lines.append(f'  <tspan x="{STATS_START_X}" y="{current_y}" class="cc">. </tspan>{key_xml}:<tspan class="cc"> {dots} </tspan><tspan class="value">{val}</tspan>')
-            current_y += 20
+            current_y += 28
             continue
 
         if t == 'value-only':
@@ -180,7 +180,7 @@ def generate_svg():
             # Key + dots column alignment padding is exactly 33 chars space
             padding = " " * 33
             svg_lines.append(f'  <tspan x="{STATS_START_X}" y="{current_y}">{padding}</tspan><tspan class="value">{val}</tspan>')
-            current_y += 20
+            current_y += 28
             continue
             
         if t == 'stats-git':
@@ -204,7 +204,7 @@ def generate_svg():
                 f'<tspan class="value">{star_val}</tspan>'
             )
             svg_lines.append(line_str)
-            current_y += 20
+            current_y += 28
             continue
             
         if t == 'stats-commits':
@@ -226,7 +226,7 @@ def generate_svg():
                 f'<tspan class="value">{follower_val}</tspan>'
             )
             svg_lines.append(line_str)
-            current_y += 20
+            current_y += 28
             continue
             
         if t == 'stats-loc':
@@ -246,15 +246,15 @@ def generate_svg():
                 f'<tspan class="delColor">{del_val}</tspan><tspan class="delColor">--</tspan> )'
             )
             svg_lines.append(line_str)
-            current_y += 20
+            current_y += 28
             continue
             
     svg_lines.append('</text>')
     svg_lines.append('</svg>')
     
-    with open('profile_card_v3.svg', 'w', encoding='utf-8') as f:
+    with open('profile_card_v4.svg', 'w', encoding='utf-8') as f:
         f.write('\n'.join(svg_lines))
-    print("profile_card_v3.svg generated successfully.")
+    print("profile_card_v4.svg generated successfully.")
 
 if __name__ == '__main__':
     generate_svg()
