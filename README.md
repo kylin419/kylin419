@@ -1,205 +1,170 @@
-<div align="center">
-
-```text
+<pre>
 ██╗  ██╗██╗   ██╗██╗     ██╗███╗   ██╗
 ██║ ██╔╝╚██╗ ██╔╝██║     ██║████╗  ██║
 █████╔╝  ╚████╔╝ ██║     ██║██╔██╗ ██║
 ██╔═██╗   ╚██╔╝  ██║     ██║██║╚██╗██║
 ██║  ██╗   ██║   ███████╗██║██║ ╚████║
 ╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═╝╚═╝  ╚═══╝
-```
-
-</div>
-
-<div align="center">
-
-```text
-kylin419@github
-──────────────────────────────────────────────────────────────────────────────
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#====         :=**+%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@                           OS:             MacOS
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+:         .       :+**+========*%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@#+                      :+**+=========++++%@@@@@@@@@@@@@@@@@@@@@@@@@@@                           Host:           NKUST EECS
-@@@@@@@@@@@@@@@@@@@@@@@%        .                 :+**+++++*******++++++@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@          .                  :+**+***++=========------@@@@@@@@@@@@@@@@@@@@@                           Kernel:         AI • Computer Vision
-@@@@@@@@@@@@@@@@@@.              .                =+======-------------+****+-@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@:                     .             =+====+****-::::::::::::==-+@@@@@@@@@@@@@@@@                           Uptime:         Student
-@@@@@@@@@@@@@@=  .      .                     ...-========-:::::=+++++++==+=-:::-*@@@@@@@@@@@@@@
-@@@@@@@@@@@@+                 .          .==++++++++++++++:-++++++++++++::+--     .+@@@@@@@@@@@@                           Shell:          Go
-@@@@@@@@@@@+    .        .               :=++++++++++++++=.-++++++++++++::+:        =@@@@@@@@@@@                                           Rust
-@@@@@@@@@#.          .    --------=++++++++++++++++*+++++=.-++++++++++++::+.       .  *@@@@@@@@@
-@@@@@@@%- .------=++++++++++=:::-=:::=-..:=++++++++%%%%%%%*#%%%%*+++++++..+.       .   .#@@@@@@@                           Editor:         VSCode
-@@@@@@@- :+++++++==++++++.--=.:.:=:::-:.:-=+++++#@##=-=++++++==+#%%%*+++..+...          :%@@@@@@                                           JetBrains
-@@@@@@* .-++++++-=:=+-.=.-..=..::=:.-=+-:-=+++##===+********#*+++==*@%++..+.....         :%@@@@@
-@@@@@*= :=*++++++++-=-+++=+++++++++++++++===*%===*****####%%%%%#**++=##+..+.               #@@@@                           Languages:      C
-@@@@@*+.:=****+++=====+++++----------------=%==*****%%%%%%%%%%%%%#**+-%#..+. .             +@@@@                                           C++
-@@@@*+..:=+=-----:....................::..-@+-*****%%%%%%%%%%%%%%%%#*==@..+.  .     .   .  :%@@@                                           Java
-@@@**+.:-=+-......=-..+*+::***+::....=**@@@+=*****%%%%%%%%%%%%%%%%%%**==@:+.            .. ::@@@                                           PHP
-@@***+.:-=+-..=*****************=:+@@@*===--==*%%%%%%%%%%%%%%%%%%%%%%*==@:+. ...            ::@@                                           Verilog
-@@+##*::-=+-..=**-+*********+:+#@%@@@#+***********%%%@@@@%%%%%%%%%%%%*==@.= .           .     @@                                           Python
-@++**+:--=+-..::::+***++++**+..:+@@@@@@@#****#%#%%%%%%%%%%%@@%%%%%%%**==@.=          .         @                                           JavaScript
-@++**+:--++-....=++++****+++++=..:*@@@@@*%@%%%%%%%@@@@@%#%@@@@@@@@+=#===@.=   .                @                                           Go
-*++**+:--+*-:...=**+++++++++**+:::::::::+##@@%%%@@%%%######%@@@@#+==+%%@-.=               .                                                Rust
-+++**+---+*-::::----:::::::----::::::::::::@%##########*++*#%@#++**=*@%@:.=                    .
-+++***---+*-::::::::::::::::::::::::::-=+-=+@%**#####*+==-=+#%*==**=%@@*..=                                                Frameworks:     OpenCV
-++*##*--=**-::::=*+-*##-#*:-+#*:::::::+#=:=-@*-+++++===--===++====+=%@@-..+           .                                                    PyTorch
-++***+--=#*-::=+++*###+++####+++=::-**-=*++*@=-==*=-----=======-+#=.=@+:..=                                                                TensorFlow
-++****--=#*-:::=+++++####++++++=::::--=++-:--#%**+=---========--++=:..@-.:+                     
-++***#--=#*-::::+****####*****+::::=*#*=+*+*-:%*+============--++==-:..@.++-                                               Backend:        Node.js
-*+***#--=#*-:=******######******+::=##+-+##*---@*++=========+*#+=====:..#%:::.   .     .       .                                           Express
-@*####--=#*-::=*##**-*###-***###+::=+-+##=*=-:::@*+======+*###*=======--..=  :@#.     .        @                                           PostgreSQL
-@*****--=#*-:::----::----::::----::--+##=:-**--@@@===*%%%###*+==========--*%##*%@*             @
-@@****--=*=-:::::::::::::::::::::::=#####*@@@.         :#*++***=========#@@@%%%+.   =@-       %@                           Embedded:       Arduino
-@@***#--=*=-:::::::::*##::::::::::::=**%=.               +******++====#@@@@@@%:...     .+%.   @@                                            ESP32
-@@@**#--=*=-::+#########*******+::::+%=      ...      .  :==*#####+=*@@@@@@#+-:........   #%.%@@                                            DE2-115
-@@@@+=--=*=-::+##=---*##-----##+::::*+           ......:::-------==#@@@@@#++++=----:::::.. .%@@@                                            STM32
-@@@@%=--=*=-::+##*+++###++++*##+:::*=  ..             ....:======#@@@@@#+++++++=====+++=-:.+@@@@                           
-@@@@@#--=*=-::=++++++*##+++++##+::=+. ....       .     ....:--=*@@@@@%+==++++===+=++++==-:=@@@@@                           Cloud:          AWS              
-@@@@@@*-=*=-:::::--::*##:::------=+:   ..            ......:-+%@@@@%*=---===+=======+===-+@@@@@@                                           Azure
-@@@@@@@+=*=-::::::---+++::::-:-:-++    ..           ......:=*@@@@@*+--------=++++++++===+@@@@@@@                                           Google Cloud
-@@@@@@@@*##*+++++=====----------+*     ..         -:....:-+%@@@@@*=-------------====+==+@@@@@@@@
-@@@@@@@@@%+++++*################%* .   .        .-....:--*@@@@@#=------------------==+#@@@@@@@@@                           WM:             Git
-@@@@@@@@@@@######%%%%*+++++++**##....  .   ..  :-...:--=#@@@@@*----------====-------=%@@@@@@@@@@
-@@@@@@@@@@@@@####%%%%%%%++%+*%%%* ...  .....  --...--=*@@@@@%=::---------###**=*===*@@@@@@@@@@@@                           Terminal:       GitHub
-@@@@@@@@@@@@@@%##*+++%%%%%%%%%%* ..........  :--.---=#@@@@@#-..:-------------=*#**@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@%*+++++++++++*# ....::..::  :------+@@@@@@+:..:-------------:::=@@@@@@@@@@@@@@@@                           Projects:       CVForge
-@@@@@@@@@@@@@@@@@@@*+++++++++*# ....:-:.::. :-----+@@@@@*-..:---::-----------%@@@@@@@@@@@@@@@@@@                                           Lingo
-@@@@@@@@@@@@@@@@@@@@@*++++++*% ......:-::  :-----@@@@@@+:.:----:.:---------%@@@@@@@@@@@@@@@@@@@@                                           AOI PCB Detection
-@@@@@@@@@@@@@@@@@@@@@@@@@+++#:.......:-:. :----=@@@@@@=-.----:..:------%%@@@@@@@@@@@@@@@@@*%@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@%% ...::..:--: :---=@@@@@#=------:..:----#@@@@@@@@@@@@@@@@@@@@#=+@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@**+:..---  ---=@@@@@*-----:...:=##@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%***. --+@@@@%+--:::+++#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-```
+Last login: Today from github.com
+
+kylin419@github:~$ neofetch
+
+
+  
+@@@@@@@@@@@@@@@@@@##  .   .-*===%@@@@@@@@@@@@@@@@@@@                  kylin419@github
+@@@@@@@@@@@@@@   .         -*+=====**#@@@@@@@@@@@@@@                  ----------------
+@@@@@@@@@@@.   . . .  .    -*+++=====---=@@@@@@@@@@@
+@@@@@@@@@.     .    .    .  ====**-::::::==@@@@@@@@@                  OS............. macOS
+@@@@@@@  .      . . . :=+++++++:=++++++:=:.  @@@@@@@                  Host........... National Kaohsiung University
+@@@@@%..    .    ..++++++++++++.+++++++:=     *@@@@@                                  of Science and Technology
+@@@@ -+++++++=:=..-.=.-+++*@******@@+++.-.     .@@@@                  Kernel......... AI • Computer Vision
+@@@=.+++++-=-::=:-==+++++*=*****%#*+-@+.-...     @@@                  Status......... Student
+@@#+:+**+=====---::::::*=***%%%%%%%%*=#.-         @@                  Shell.......... Go / Rust
+@@*.-+...:=.*+=*+-..*#%+*##%%%%%%%%%%*=*- .      .*@                  Editor......... VSCode
+@+#.-+..*-***+*=+@@@*******%%@@%%%%%%#=*: .    .   @                                  JetBrains
+%+*:-+...==+*+==-.+@@@%%%%%%%@%@@@@@++=*:  .     . =                  Languages...... C
+***:-#::.*-::::++::::::%######**@@+*=%@.:    .                                        C++
++*#--#:::+:+=+:-+::::+-=%+***=--+*=++@*.-  .   .                                      Java
++**--#::-=##=+#*=-:*-=*+*=+=--====-*:==.: .      .                                    PHP
++**--#:::--+#+---::##-=*:#=======-+==.+--     .                                       Verilog
+%##--#::*#++#++*#*:#=#=+-:#====*#*====-.-:%-       =                                  Python
+@**--+:::::::::::::**#*@=     %***=====%@%%:  %    @                                  JavaScript
+@@*--+::#####++++:::# .   .  . -*###+%@@@+:...  :*=@                                  Go
+@@*-=+::#=-+#--=#::@ .    .  ..-+==+@@@*=++--=+-: @@                                  Rust
+@@@-=+::---+#---=:-  ..       ..--@@@*==++=====-:@@@                  Frameworks..... OpenCV
+@@@@=+---:---:-:--#  ..     ...-*@@#=-----=+=+--@@@@                                  PyTorch
+@@@@@@==+++++++*## . .    -..--@@@=-----------%@@@@@                                  TensorFlow
+@@@@@@@##%%%%+#*%+.. ....-.:-#@@@------+#*++=@@@@@@@                  Web............ HTML
+@@@@@@@@@+++++++%.....: ---=@@@*..-------::@@@@@@@@@                                  CSS
+@@@@@@@@@@@*+++* ...-..:--+@@@-.--::----=@@@@@@@@@@@                                  React
+@@@@@@@@@@@@@@%#....-- --#@@%----..--#@@@@@@@@@@+-@@                                  Next.js
+@@@@@@@@@@@@@@@@@@%#-- -*@@*--:.*#@@@@@@@@@@@@@@@@@@                                  Node.js
+                                                                                      Express                            
+                                                                                      PostgreSQL                           
+                                                          
+                                                                      Embedded....... Arduino
+                                                                                      ESP32
+                                                                                      STM32
+                                                                                      DE2-115                                             
+                                                                      Cloud.......... AWS
+                                                                                      Azure
+                                                                                      Google Cloud                                             
+                                                          
+                                                                                                                   
+────────────────────────────────────────────────────────────────────────────────────────
 
-</div>
+kylin419@github:~$ ls
 
----
+projects/
+skills/
+about.txt
+contact.txt
 
-# ~/tech-stack
+────────────────────────────────────────────────────────────────────────────────────────
 
-### Languages
+kylin419@github:~$ cat projects
 
-<p align="center">
-<img src="https://skillicons.dev/icons?i=c,cpp,java,php,v,python,js,go,rust&theme=dark"/>
-</p>
+• CVForge
+  High-performance image processing CLI written in Go.
 
-### Web Development
+• Lingo
+  Discord productivity bot focused on collaboration and automation.
 
-<p align="center">
-<img src="https://skillicons.dev/icons?i=html,css,react,nextjs,nodejs,express,postgres&theme=dark"/>
-</p>
+• AOI PCB Detection
+  YOLO-based PCB defect detection on Jetson Orin Nano.
 
-### Platforms & Tools
+────────────────────────────────────────────────────────────────────────────────────────
 
-<p align="center">
-<img src="https://skillicons.dev/icons?i=git,github,aws,azure,vscode,postman,stackoverflow&theme=dark"/>
-</p>
+kylin419@github:~$ cat skills
 
-### Boards
+Programming Languages
 
-<p align="center">
-<img src="https://skillicons.dev/icons?i=arduino,esp32&theme=dark"/>
-</p>
+  C
+  C++
+  Go
+  Rust
+  Python
+  JavaScript
+  Java
+  PHP
+  Verilog
 
-### Package Managers
+Computer Vision
 
-<p align="center">
-<img src="https://skillicons.dev/icons?i=npm,yarn,pnpm,bun&theme=dark"/>
-</p>
+  OpenCV
+  PyTorch
+  TensorFlow
 
-### Operating Systems
+Embedded
 
-<p align="center">
-<img src="https://skillicons.dev/icons?i=apple,linux,windows,ubuntu,arch,ros&theme=dark"/>
-</p>
+  STM32
+  ESP32
+  Arduino
 
-### ML & Computer Vision
+Backend
 
-<p align="center">
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv&theme=dark"/>
-</p>
+  Go
+  Node.js
+  Express
+  PostgreSQL
 
----
+────────────────────────────────────────────────────────────────────────────────────────
 
-# ~/github-stats
+kylin419@github:~$ cat about.txt
 
-<div align="center">
+Name        : Kylin
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=kylin419&show_icons=true&theme=github_dark&hide_border=true"/>
+School      : National Kaohsiung University of Science and Technology
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kylin419&layout=compact&theme=github_dark&hide_border=true"/>
+Department  : Electronic Engineering
+              (Computer Science Track)
 
-</div>
+Focus
 
----
+  • Computer Vision
+  • Machine Learning
+  • Embedded Systems
+  • Backend Engineering
+  • Robotics
 
-# ~/streak
+────────────────────────────────────────────────────────────────────────────────────────
 
-<div align="center">
+kylin419@github:~$ git status
 
-<img src="https://streak-stats.demolab.com?user=kylin419&theme=github-dark-blue&hide_border=true"/>
+On branch main
 
-</div>
+Your branch is up to date.
 
----
+nothing to commit, working tree clean
 
-# ~/summary
+────────────────────────────────────────────────────────────────────────────────────────
 
-<div align="center">
+kylin419@github:~$ uname -a
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kylin419&theme=github_dark"/>
+Developer focused on building practical AI systems
+from embedded hardware to backend services.
 
-</div>
+────────────────────────────────────────────────────────────────────────────────────────
 
----
+kylin419@github:~$ cat contact.txt
 
-# ~/languages
+GitHub      github.com/kylin419
 
-<div align="center">
+Website     https://kylindev.me
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kylin419&theme=github_dark"/>
+Discord     kylin419
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kylin419&theme=github_dark"/>
+LinkedIn    /in/your-linkedin
 
-</div>
+────────────────────────────────────────────────────────────────────────────────────────
 
----
+kylin419@github:~$ echo $MOTD
 
-# ~/coding-time
+Building intelligent systems from embedded hardware to AI.
 
-<div align="center">
+────────────────────────────────────────────────────────────────────────────────────────
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kylin419&theme=github_dark&utcOffset=8"/>
+kylin419@github:~$ █
 
-</div>
-
----
-
-# ~/activity
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=kylin419&theme=github-compact&hide_border=true"/>
-
-</div>
-
----
-
-# ~/calendar
-
-<div align="center">
-
-<img src="https://ghchart.rshah.org/kylin419"/>
-
-</div>
-
----
-
-# ~/social
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=instagram,discord,twitter,linkedin&theme=dark"/>
-
-</div>
+</pre>
