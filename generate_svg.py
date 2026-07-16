@@ -46,8 +46,8 @@ ascii_art = """
 # Width and Height settings
 ASCII_CHAR_WIDTH = 71
 ASCII_START_X = 15
-STATS_START_X = 640 # Alignment start for stats block
-SVG_WIDTH = 1250
+STATS_START_X = 760 # Shift stats further right to prevent overlap with wide ASCII art
+SVG_WIDTH = 1420 # Widen card container to fit shifted stats block
 SVG_HEIGHT = 890 # Height adjusted to support multi-line wrap
 
 # Calculate Uptime
@@ -252,9 +252,9 @@ def generate_svg():
     svg_lines.append('</text>')
     svg_lines.append('</svg>')
     
-    with open('profile_card.svg', 'w', encoding='utf-8') as f:
+    with open('profile_card_v3.svg', 'w', encoding='utf-8') as f:
         f.write('\n'.join(svg_lines))
-    print("profile_card.svg generated successfully.")
+    print("profile_card_v3.svg generated successfully.")
 
 if __name__ == '__main__':
     generate_svg()
