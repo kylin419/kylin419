@@ -46,8 +46,8 @@ ascii_art = """
 # Width settings
 ASCII_CHAR_WIDTH = 71
 ASCII_START_X = 15
-STATS_START_X = 720 # Give enough spacing after ASCII
-SVG_WIDTH = 1380
+STATS_START_X = 640 # Shift stats to the left
+SVG_WIDTH = 1550 # Widen the card to prevent truncation
 SVG_HEIGHT = 830
 
 # Calculate Uptime
@@ -134,7 +134,7 @@ def generate_svg():
             
         if t == 'header':
             label = row[1]
-            dash_len = 35 # characters of dashes
+            dash_len = 70 # characters of dashes (increased from 35)
             dashes = "-" * dash_len
             svg_lines.append(f'  <tspan x="{STATS_START_X}" y="{current_y}">{label}</tspan> <tspan class="cc">{dashes}</tspan>')
             current_y += 20
@@ -142,7 +142,7 @@ def generate_svg():
             
         if t == 'contact-header' or t == 'stats-header':
             label = row[1]
-            dash_len = 42
+            dash_len = 77 # characters of dashes (increased from 42)
             dashes = "-" * dash_len
             svg_lines.append(f'  <tspan x="{STATS_START_X}" y="{current_y}">{label}</tspan> <tspan class="cc">{dashes}</tspan>')
             current_y += 20
