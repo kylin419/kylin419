@@ -1,6 +1,6 @@
 import datetime
 
-# ASCII Art provided by the user
+# ASCII Art provided by the user (39 lines, 71 chars width)
 ascii_art = """
 @@@@@@@@@@@@@@@@@@@@@@@@@@@ . .   .  -+*+***@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@@@@*=              -+*========#%@@@@@@@@@@@@@@@@@@@@@
@@ -43,12 +43,12 @@ ascii_art = """
 @@@@@@@@@@@@@@@@@@@@@@@@@@@-== -=%@@@+--::--@@@@@@@@@@@@@@@@@@@@@@@@@@@
 """.strip().split('\n')
 
-# Width settings
+# Width and Height settings
 ASCII_CHAR_WIDTH = 71
 ASCII_START_X = 15
-STATS_START_X = 640 # Shift stats to the left
-SVG_WIDTH = 1550 # Widen the card to prevent truncation
-SVG_HEIGHT = 830
+STATS_START_X = 640 # Alignment start for stats block
+SVG_WIDTH = 1250
+SVG_HEIGHT = 890 # Height adjusted to support multi-line wrap
 
 # Calculate Uptime
 start_date = datetime.date(2021, 11, 29)
@@ -59,20 +59,25 @@ months = (diff.days % 365) // 30
 days = (diff.days % 365) % 30
 uptime_str = f"{years} years, {months} months, {days} days"
 
-# Stats definitions
+# Stats definitions with pre-wrapped values
 # Format: (type, label/prefix, value/suffix)
 stats_data = [
     ('header', 'kylin419@github', ''),
     ('item', 'OS', 'macOS'),
     ('item', 'Uptime', uptime_str),
-    ('item', 'Host', 'National Kaohsiung University of Science and Technology'),
-    ('item', 'Kernel', '電子工程系資訊組 (Electronic Engineering - CS Track)'),
+    ('item', 'Host', 'National Kaohsiung University'),
+    ('value-only', 'of Science and Technology'),
+    ('item', 'Kernel', '電子工程系資訊組'),
+    ('value-only', '(Electronic Engineering - CS Track)'),
     ('item', 'IDE', 'VSCode, JetBrains'),
     ('empty',),
-    ('item', 'Languages.Programming', 'Go, Rust, Python, C++, C, Java, PHP, Verilog'),
-    ('item', 'Languages.Web', 'HTML, CSS, React, Next.js, Node.js, Express'),
+    ('item', 'Languages.Programming', 'Go, Rust, Python, C++, C,'),
+    ('value-only', 'Java, PHP, Verilog'),
+    ('item', 'Languages.Web', 'HTML, CSS, React, Next.js,'),
+    ('value-only', 'Node.js, Express'),
     ('empty',),
-    ('item', 'Hobbies.Software', 'CVForge, Lingo, YOLO PCB Defect Detection'),
+    ('item', 'Hobbies.Software', 'CVForge, Lingo,'),
+    ('value-only', 'YOLO PCB Defect Detection'),
     ('item', 'Hobbies.Hardware', 'STM32, ESP32, Arduino, DE2-115'),
     ('empty',),
     ('contact-header', '- Contact', ''),
@@ -90,7 +95,8 @@ stats_data = [
 def generate_svg():
     svg_lines = []
     svg_lines.append("<?xml version='1.0' encoding='UTF-8'?>")
-    svg_lines.append(f'<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="{SVG_WIDTH}px" height="{SVG_HEIGHT}px" font-size="15px">')
+    # Added viewBox for responsive auto-scaling and preventing layout truncation
+    svg_lines.append(f'<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="100%" height="100%" viewBox="0 0 {SVG_WIDTH} {SVG_HEIGHT}" font-size="15px">')
     svg_lines.append('<style>')
     svg_lines.append('  @font-face {')
     svg_lines.append("    src: local('Consolas'), local('Consolas Bold');")
@@ -134,7 +140,7 @@ def generate_svg():
             
         if t == 'header':
             label = row[1]
-            dash_len = 70 # characters of dashes (increased from 35)
+            dash_len = 40 # characters of dashes (adjusted for new canvas aspect ratio)
             dashes = "-" * dash_len
             svg_lines.append(f'  <tspan x="{STATS_START_X}" y="{current_y}">{label}</tspan> <tspan class="cc">{dashes}</tspan>')
             current_y += 20
@@ -142,7 +148,7 @@ def generate_svg():
             
         if t == 'contact-header' or t == 'stats-header':
             label = row[1]
-            dash_len = 77 # characters of dashes (increased from 42)
+            dash_len = 47
             dashes = "-" * dash_len
             svg_lines.append(f'  <tspan x="{STATS_START_X}" y="{current_y}">{label}</tspan> <tspan class="cc">{dashes}</tspan>')
             current_y += 20
@@ -152,8 +158,7 @@ def generate_svg():
             key = row[1]
             val = row[2]
             
-            # Align dots
-            # We want key + dots to be around 28 characters
+            # Align dots: dot_count calculates spacing to keep values perfectly aligned
             parts = key.split('.')
             key_xml = ""
             if len(parts) > 1:
@@ -169,6 +174,14 @@ def generate_svg():
             svg_lines.append(f'  <tspan x="{STATS_START_X}" y="{current_y}" class="cc">. </tspan>{key_xml}:<tspan class="cc"> {dots} </tspan><tspan class="value">{val}</tspan>')
             current_y += 20
             continue
+
+        if t == 'value-only':
+            val = row[1]
+            # Key + dots column alignment padding is exactly 33 chars space
+            padding = " " * 33
+            svg_lines.append(f'  <tspan x="{STATS_START_X}" y="{current_y}">{padding}</tspan><tspan class="value">{val}</tspan>')
+            current_y += 20
+            continue
             
         if t == 'stats-git':
             key = row[1]
@@ -176,11 +189,9 @@ def generate_svg():
             contrib_val = row[3]
             star_val = row[4]
             
-            # Key (Repos) + dots
             dot_count_repos = 6 - len(key)
             dots_repos = "." * dot_count_repos
             
-            # Stars + dots
             dot_count_stars = 12
             dots_stars = "." * dot_count_stars
             
