@@ -59,14 +59,14 @@
   <tspan x="15" y="795">@@@@@@@@@@@@@@@@@@@@@@@@@@@-== -=%@@@+--::--@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
 </text>
 <!-- Stats -->
-<text x="660" y="35" fill="#c9d1d9" font-size="18px">
+<text x="660" y="35" fill="#c9d1d9" font-size="20px">
   <tspan x="660" y="35">kylin419@github</tspan> <tspan class="cc">----------------------------------------</tspan>
   <tspan x="660" y="63" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> .......................... </tspan><tspan class="value">macOS</tspan>
   <tspan x="660" y="91" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value">4 years, 7 months, 21 days</tspan>
   <tspan x="660" y="119" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">National Kaohsiung University</tspan>
   <tspan x="660" y="147">                                 </tspan><tspan class="value">of Science and Technology</tspan>
-  <tspan x="660" y="175" class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value">電子工程系資訊組</tspan>
-  <tspan x="660" y="203">                                 </tspan><tspan class="value">(Electronic Engineering - CS Track)</tspan>
+  <tspan x="660" y="175" class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value">電子工程系</tspan>
+  <tspan x="660" y="203">                                 </tspan><tspan class="value">(Electronic Engineering)</tspan>
   <tspan x="660" y="231" class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">VSCode, JetBrains</tspan>
   <tspan x="660" y="259"> </tspan>
   <tspan x="660" y="287" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Programming</tspan>:<tspan class="cc"> ....... </tspan><tspan class="value">Go, Rust, Python, C++, C,</tspan>
@@ -76,7 +76,7 @@
   <tspan x="660" y="399"> </tspan>
   <tspan x="660" y="427" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Software</tspan>:<tspan class="cc"> ............ </tspan><tspan class="value">CVForge, Lingo,</tspan>
   <tspan x="660" y="455">                                 </tspan><tspan class="value">YOLO PCB Defect Detection</tspan>
-  <tspan x="660" y="483" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Hardware</tspan>:<tspan class="cc"> ............ </tspan><tspan class="value">STM32, ESP32, Arduino, DE2-115</tspan>
+  <tspan x="660" y="483" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Hardware</tspan>:<tspan class="cc"> ............ </tspan><tspan class="value">STM32, ESP32, Arduino</tspan>
   <tspan x="660" y="511"> </tspan>
   <tspan x="660" y="539">- Contact</tspan> <tspan class="cc">-----------------------------------------------</tspan>
   <tspan x="660" y="567" class="cc">. </tspan><tspan class="key">GitHub</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value">github.com/kylin419</tspan>
