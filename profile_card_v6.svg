@@ -59,7 +59,7 @@
   <tspan x="15" y="795">@@@@@@@@@@@@@@@@@@@@@@@@@@@-== -=%@@@+--::--@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
 </text>
 <!-- Stats -->
-<text x="660" y="35" fill="#c9d1d9" font-size="20px">
+<text x="660" y="35" fill="#c9d1d9" font-size="22px">
   <tspan x="660" y="35">kylin419@github</tspan> <tspan class="cc">----------------------------------------</tspan>
   <tspan x="660" y="63" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> .......................... </tspan><tspan class="value">macOS</tspan>
   <tspan x="660" y="91" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value">4 years, 7 months, 21 days</tspan>
@@ -67,7 +67,7 @@
   <tspan x="660" y="147">                                 </tspan><tspan class="value">of Science and Technology</tspan>
   <tspan x="660" y="175" class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value">電子工程系</tspan>
   <tspan x="660" y="203">                                 </tspan><tspan class="value">(Electronic Engineering)</tspan>
-  <tspan x="660" y="231" class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">VSCode, JetBrains</tspan>
+  <tspan x="660" y="231" class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">VSCode, IDEA</tspan>
   <tspan x="660" y="259"> </tspan>
   <tspan x="660" y="287" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Programming</tspan>:<tspan class="cc"> ....... </tspan><tspan class="value">Go, Rust, Python, C++, C,</tspan>
   <tspan x="660" y="315">                                 </tspan><tspan class="value">Java, PHP, Verilog</tspan>
